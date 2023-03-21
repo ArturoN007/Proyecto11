@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>formulario2</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <form class="mt-5">
+      <div class="mb-3">
+        <label for="email" call="form-label">Escriba su correo electrónico</label>
+        <input type="text" id="email" class="form-control form-control-lg">
+      </div>
+
+      <div class="mb-3">
+        <label for="dirccion" class="form-label">Cual es tu dirección domiciliaria</label>
+        <input type="text" id="direccion" class="form-control form-control-sm">
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="fecha-nacimiento" class="form-label">Fecha de tu nacimiento</label>
+          <input type="date" class="form-control" id="fecha-nacimiento">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="archivo" class="form-label">Suba su CV (currículum vitae)</label>
+        <input type="file" class="form-control" id="archivo">
+
+      <div class="col-md-6 md-3">
+        <label for="numero" class="form-label">Número de teléfono para contactarte</label>
+        <input type="number" class="form-control-sm" id="numero">
+
+      </div>
+
+      <div class="mb-5">
+        <label for="turno" class="form-label">Que horario de trabajo gusta emplear</label>
+        <select name="turno" id="form-select">
+          <option value="">Selecione aquí</option>
+          <option value="">Turno mañana</option>
+          <option value="">Turno tarde</option>
+          <option value="">Turno noche</option>
+        </select>
+        
+      </div>
+
+      <div class="mb-3 d-grid gap-2">
+        <button type="button" class="btn btn-secondary btn-sm">Enviar información</button>
+      </div>
+
+    </form>
+
+
+  </div>
+</body>
